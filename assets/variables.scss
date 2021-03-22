@@ -2,3 +2,20 @@
 //
 // The variables you want to modify
 // $font-size-root: 20px;
+
+@mixin baseTheme {
+  // Font Family
+  --font-body: "Poppins", "sans-serif";
+  // Dark color
+  --dark-color: #30424D;
+  // Base color
+  --base-color: #f9f7f2;
+  // Accent pink color
+  --acc-pink-color: #FF92A5;
+  // Accent yellow color
+  --acc-purple-color: #FFCC8D;
+}
+
+:root {
+  @include baseTheme;
+}
