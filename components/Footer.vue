@@ -1,5 +1,7 @@
 <template>
-  <div>This is FOOTER placeholder</div>
+  <v-bottom-navigation absolute class="footer"
+    >This is FOOTER placeholder</v-bottom-navigation
+  >
 </template>
 
 <script>
@@ -8,4 +10,9 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.footer {
+  background: transparent;
+  box-shadow: none;
+}
+</style>
