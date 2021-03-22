@@ -23,7 +23,6 @@ export default {
   .header-item {
     text-decoration: none;
     margin-right: 3rem;
-    color: var(--base-color);
     &:last-child {
       margin-right: 0;
     }
